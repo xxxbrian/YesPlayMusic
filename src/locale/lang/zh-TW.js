@@ -8,7 +8,8 @@ export default {
     explore: '發現',
     library: '音樂庫',
     search: '搜尋',
-    github: 'GitHub Repo',
+    github: 'GitHub',
+    homepage: '主頁',
   },
   home: {
     recommendPlaylist: '推薦歌單',

@@ -66,6 +66,10 @@
         {{ $t('library.userProfileMenu.logout') }}
       </div>
       <hr />
+      <div class="item" @click="toHomepage">
+        <svg-icon icon-class="home" />
+        {{ $t('nav.homepage') }}
+      </div>
       <div class="item" @click="toGitHub">
         <svg-icon icon-class="github" />
         {{ $t('nav.github') }}
@@ -158,7 +162,10 @@ export default {
       this.$router.push({ name: 'settings' });
     },
     toGitHub() {
-      window.open('https://github.com/qier222/YesPlayMusic');
+      window.open('https://github.com/xxxbrian');
+    },
+    toHomepage() {
+      window.open('https://bojin.co');
     },
     toLogin() {
       if (process.env.IS_ELECTRON === true) {
