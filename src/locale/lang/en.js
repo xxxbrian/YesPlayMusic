@@ -103,6 +103,7 @@ export default {
   },
   player: {
     like: 'Like',
+    unlike: 'Unlike',
     previous: 'Previous Song',
     next: 'Next Song',
     repeat: 'Repeat',
@@ -130,6 +131,17 @@ export default {
     settings: 'Settings',
     logout: 'LOGOUT',
     language: 'Languages',
+    lyric: 'Lyric',
+    others: 'Others',
+    customization: 'Customization',
+    MusicGenrePreference: {
+      text: 'Music Language Preference',
+      none: 'No preferences',
+      mandarin: 'Mandarin',
+      western: 'Europe & America',
+      korean: 'Korean',
+      japanese: 'Japanese',
+    },
     musicQuality: {
       text: 'Music Quality',
       low: 'Low',
@@ -167,6 +179,7 @@ export default {
     subTitleDefault: 'Show Alias for Subtitle by default',
     enableReversedMode: 'Enable Reversed Mode (Experimental)',
     enableCustomTitlebar: 'Enable custom title bar (Need restart)',
+    showLyricsTime: 'Display current time',
     lyricsBackground: {
       text: 'Show Lyrics Background',
       off: 'Off',

@@ -100,6 +100,7 @@ export default {
   },
   player: {
     like: '喜歡',
+    unlike: '取消喜歡',
     previous: '上一首',
     next: '下一首',
     repeat: '循環播放',
@@ -127,6 +128,17 @@ export default {
     settings: '設定',
     logout: '登出',
     language: '語言',
+    lyric: '歌詞',
+    others: '其他',
+    customization: '自訂',
+    MusicGenrePreference: {
+      text: '音樂語種偏好',
+      none: '無偏好',
+      mandarin: '華語',
+      western: '歐美',
+      korean: '韓語',
+      japanese: '日語',
+    },
     musicQuality: {
       text: '音質選擇',
       low: '普通',
@@ -165,6 +177,7 @@ export default {
     subTitleDefault: '副標題使用別名',
     enableReversedMode: '啟用倒序播放功能 (實驗性功能)',
     enableCustomTitlebar: '啟用自訂標題列（重新啟動後生效）',
+    showLyricsTime: '顯示目前時間',
     lyricsBackground: {
       text: '顯示歌詞背景',
       off: '關閉',
