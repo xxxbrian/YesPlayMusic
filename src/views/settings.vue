@@ -701,8 +701,8 @@
 
       <div class="footer">
         <p class="author"
-          >MADE BY
-          <a href="http://github.com/qier222" target="_blank">QIER222</a></p
+          >RELEASE BY
+          <a href="http://github.com/xxxbrian" target="_blank">BOJIN LI</a></p
         >
         <p class="version">v{{ version }}</p>
 
